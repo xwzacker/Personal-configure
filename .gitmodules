@@ -1,0 +1,6 @@
+[submodule "vimrc"]
+	path = vimrc
+	url = https://github.com/amix/vimrc.git
+[submodule "dircolors-solarized"]
+	path = dircolors-solarized
+	url = ./dircolors-solarized
