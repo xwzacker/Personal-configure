@@ -4,3 +4,6 @@
 [submodule "dircolors-solarized"]
 	path = dircolors-solarized
 	url = ./dircolors-solarized
+[submodule ".tmux"]
+	path = .tmux
+	url = ./.tmux

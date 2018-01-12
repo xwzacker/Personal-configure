@@ -10,5 +10,7 @@ zsh, vim, tmux
 
 - clone vimrc project from amix/vimrc
 
+- clone tmux project from oh-my-tmux(???)
+    - change .tmux.config, changes are recorded in tmux.note
 
 

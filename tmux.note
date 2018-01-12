@@ -1,0 +1,27 @@
+
+reference bindings part of READM.md in https://github.com/gpakosz/.tmux
+
+other references 
+https://gist.github.com/MohamedAlaa/2961058
+https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
+
+
+others command might be as well as normal tmux, I just take notes here
+<prefix> ? : check all key bindings
+1. <prefix> c : create a new window
+2. <prefix> number : navigate to the nth window
+3. <prefix> Tab : last active window
+4. <prefix> m : toggle mouse mode (if mouse mode is on, we could use mouse to manipulate panel and other functions)
+5. <prefix> s (tmux list) : list all sessions
+6. <prefix> + : maximize a panel to a new window, restore it is the same binding
+7. <prefix> enter : enter copy mode (seems to be not working)
+8. setw == set-window-option
+
+What I changed: (in .tmux.conf or .tmux.conf.local)
+1. <prefix> - : new pane vertical
+2. <prefix> | : new pane horizontal
+3. <prefix> C-t : open new window
+4. about copy mode: (options are listed in .tmux.conf.local)
+    - install xsel, and turn tmux_conf_copy_to_os_clipboard to true
+    - force vi mode
+
