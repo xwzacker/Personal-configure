@@ -6,6 +6,7 @@ Hack with Nerd
 https://github.com/source-foundry/Hack
 search Hack in nerd's website or github
 https://www.nerdfonts.com/
+
 https://github.com/ryanoasis/nerd-fonts/tree/master
 
 zsh, vim, tmux
